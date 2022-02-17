@@ -1,0 +1,164 @@
+/* YOUR CUSTOM STYLES */ /* Sticky footer styles
+-------------------------------------------------- */
+@font-face {
+  font-family: "Vazir";
+  src: url("Vazir-Regular-FD.eot");
+  src: url("Vazir-Regular-FD.eot?#iefix") format("embedded-opentype"),
+    url("Vazir-Regular-FD.woff2") format("woff2"),
+    url("Vazir-Regular-FD.woff") format("woff"),
+    url("Vazir-Regular-FD.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Vazir";
+  src: url("Vazir-Bold-FD.eot");
+  src: url("Vazir-Bold-FD.eot?#iefix") format("embedded-opentype"),
+    url("Vazir-Bold-FD.woff2") format("woff2"),
+    url("Vazir-Bold-FD.woff") format("woff"),
+    url("Vazir-Bold-FD.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Vazir";
+  src: url("Vazir-Black-FD.eot");
+  src: url("Vazir-Black-FD.eot?#iefix") format("embedded-opentype"),
+    url("Vazir-Black-FD.woff2") format("woff2"),
+    url("Vazir-Black-FD.woff") format("woff"),
+    url("Vazir-Black-FD.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Vazir";
+  src: url("Vazir-Medium-FD.eot");
+  src: url("Vazir-Medium-FD.eot?#iefix") format("embedded-opentype"),
+    url("Vazir-Medium-FD.woff2") format("woff2"),
+    url("Vazir-Medium-FD.woff") format("woff"),
+    url("Vazir-Medium-FD.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Vazir";
+  src: url("Vazir-Light-FD.eot");
+  src: url("Vazir-Light-FD.eot?#iefix") format("embedded-opentype"),
+    url("Vazir-Light-FD.woff2") format("woff2"),
+    url("Vazir-Light-FD.woff") format("woff"),
+    url("Vazir-Light-FD.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Vazir";
+  src: url("Vazir-Thin-FD.eot");
+  src: url("Vazir-Thin-FD.eot?#iefix") format("embedded-opentype"),
+    url("Vazir-Thin-FD.woff2") format("woff2"),
+    url("Vazir-Thin-FD.woff") format("woff"),
+    url("Vazir-Thin-FD.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sans";
+  src: url("Product-Sans-Regular.eot");
+  src: url("Product-Sans-Regular.eot?#iefix") format("embedded-opentype"),
+    url("Product-Sans-Regular.woff2") format("woff2"),
+    url("Product-Sans-Regular.woff") format("woff"),
+    url("Product-Sans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-family: "Vazir", "Sans";
+  position: relative;
+  min-height: 100%;
+}
+body {
+  font-family: "Vazir";
+  /* Margin bottom by footer height */
+}
+
+.mobile-bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  will-change: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background-color: #fff;
+}
+.mobile-bottom-nav__item {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  text-align: center;
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.mobile-bottom-nav__item--active {
+  color: red;
+}
+.mobile-bottom-nav__item-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.container-mobile {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (min-width: 480px) {
+  .container-mobile {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .container-mobile {
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .container-mobile {
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .container-mobile {
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
